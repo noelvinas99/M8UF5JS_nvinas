@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../M8UF5AC45_nvinas/css/styles.css">    
+    </head>
+    <body>
+        <form id="form">
+            <label for="Usuari">Nom:</label>
+            <p></p>
+            <input type="text" id="usuarii">
+            <p></p>
+            <label for="Contrasenya">Contrasenya:</label>
+            <p></p>
+            <input type="password" id="pass">
+            <p></p>
+            <label for="Repeteixcontrasenya">Repeteix la contrasenya:</label>
+            <p></p>
+            <input type="password" id="pass2">
+            <p></p>
+            <input type="submit" onclick="validarcontrasenya()" class="btn-submit" value="Comprovar">
+            <p></p>
+            <label for="Usuari">Nom:</label>
+            <p></p>
+            <input type="text" id="nom">
+            <p></p>
+            <label for="Usuari">Cognom:</label>
+            <p></p>
+            <input type="text" id="cognom">
+            <p></p>
+            <input type="submit" onclick="guardardades()" class="btn-submit" value="Guardar dades">
+            <input type="submit" onclick="recuperardades()" class="btn-submit" value="Recuperar dades">
+            <input type="submit" onclick="esborrardades()" class="btn-submit" value="Esborrar dades">
+
+            <script type="text/javascript" src="../M8UF5AC45_nvinas/js/cookies.js"></script>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../M8UF5AC46_nvinas/css/styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">    
+    </head>
+    <body>
+        <div id="calculadora">
+            <div id="pantalla">
+                <input id="textpantalla">
+            </div>
+            <div id="casi">
+                <img src="../M8UF5AC46_nvinas/img/casi.png" alt="">
+            </div>
+            <div id="filera1">
+                <img src="../M8UF5AC46_nvinas/img/placasolar.png" alt="">
+                <button type="button" class="especial2" onclick="borradototal()" value="C">C</button>
+            </div>
+            <div id="filerabotons">
+                <button type="button" class="btn btn-default" onclick="calcula('7')" value="7">7</button>
+                <button type="button" class="btn btn-default" onclick="calcula('8')" value="8">8</button>
+                <button type="button" class="btn btn-default" onclick="calcula('9')" value="9">9</button>
+                <button type="button" class="especial" onclick="calcula('/')">/</button>
+            </div>
+            <div id="filerabotons">
+                <button type="button" class="btn btn-default" onclick="calcula('4')" value="4">4</button>
+                <button type="button" class="btn btn-default" onclick="calcula('5')" value="5">5</button>
+                <button type="button" class="btn btn-default" onclick="calcula('6')" value="6">6</button>
+                <button type="button" class="especial" onclick="calcula('*')" value="*">x</button>
+            </div>
+            <div id="filerabotons">
+                <button type="button" class="btn btn-default" onclick="calcula('1')" value="1">1</button>
+                <button type="button" class="btn btn-default" onclick="calcula('2')" value="2">2</button>
+                <button type="button" class="btn btn-default" onclick="calcula('3')" value="3">3</button>
+                <button type="button" class="especial" onclick="calcula('-')" value="-">-</button>
+            </div>
+            <div id="filerabotons" class="ultimafilera">
+                <button type="button" class="btn btn-default" onclick="calcula('0')" value="0">0</button>
+                <button type="button" class="especial" onclick="calcula('.')" value=",">,</button>
+                <button type="button" class="especial" onclick="igualar('=')" value="=">=</button>
+                <button type="button" class="especial" onclick="calcula('+')" value="+">+</button>
+            </div>
+        </div>
+        <script type="text/javascript" src="../M8UF5AC46_nvinas/js/calculadora.js"></script>
+    </body>
+</html>

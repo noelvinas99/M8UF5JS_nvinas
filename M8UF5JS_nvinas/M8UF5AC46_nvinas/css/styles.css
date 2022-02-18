@@ -1,0 +1,72 @@
+#calculadora {
+    background-color: rgb(140, 209, 188);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 150px;
+    border-style: solid;
+    border-color: black;
+    width: 190px;
+}
+
+/*PANTALLA*/
+#pantalla {
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#textpantalla {
+    width: 160px;
+    height: 50px;
+    background-color: rgb(219, 238, 245);
+    border-radius: 10px;
+    border-color: black;
+}
+
+/*IMATGE CASI PART DE DALT*/
+#casi {
+    width: 0px;
+    margin: auto;
+}
+#casi img {
+    height: 20px;
+    width: 70px;
+}
+
+/*IMATGE PANEL*/
+#filera1 img {
+    height: 20px;
+    width: 100px;
+    margin-right: 15px;
+}
+#filera1 {
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+/*BOTONS*/
+.especial {
+    background-color: rgb(235, 232, 150);
+    width: 34px;
+    height: 33px;
+    border: solid, 1px;
+    border-color: gray;
+    border-radius: 5px;
+}
+.especial2 {
+    background-color: rgb(241, 125, 125);
+    width: 34px;
+    height: 33px;
+    border: solid, 1px;
+    border-color: gray;
+    border-radius: 5px;
+}
+#filerabotons {
+    text-align: center;
+    margin: 10px;
+}
+.ultimafilera {
+    padding-bottom: 10px;
+}
